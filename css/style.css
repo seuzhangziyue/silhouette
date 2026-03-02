@@ -34,7 +34,7 @@
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
     
     /* 尺寸 */
-    --nav-height: 70px;
+    --nav-height: 55px;
     --section-padding: 90px;
     --container-width: 1200px;
     
@@ -156,14 +156,16 @@ button {
 }
 
 .navbar.at-top {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(15px);
+    background: rgba(0, 47, 167, 0.08);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .navbar.scrolled {
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 47, 167, 0.12);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 2px 20px rgba(0, 47, 167, 0.1);
 }
 
 .nav-container {
@@ -182,7 +184,7 @@ button {
 }
 
 .logo-image {
-    height: 50px;
+    height: 40px;
     width: auto;
     object-fit: contain;
 }
@@ -216,11 +218,11 @@ button {
 }
 
 .nav-link:hover {
-    color: #5a7d9a;
+    color: #002fa7;
 }
 
 .nav-link.active {
-    color: #5a7d9a;
+    color: #002fa7;
 }
 
 
@@ -248,7 +250,7 @@ button {
 }
 
 .lang-current {
-    color: var(--color-primary-light);
+    color: #002fa7;
     font-weight: 500;
 }
 
@@ -382,9 +384,9 @@ button {
 
 .btn:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
-    box-shadow: 0 6px 20px rgba(90, 125, 154, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
+    box-shadow: 0 6px 20px rgba(0, 47, 167, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
@@ -396,8 +398,8 @@ button {
 
 .btn-primary:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
 }
 
 .btn-secondary {
@@ -408,8 +410,8 @@ button {
 
 .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
 }
 
 /* 滚动指示器 - 隐藏 */
@@ -445,7 +447,7 @@ button {
     font-size: clamp(1.8rem, 4vw, 2.5rem);
     font-weight: 400;
     letter-spacing: 0.15em;
-    color: #5a7d9a;
+    color: #002fa7;
     margin-bottom: 0.5rem;
 }
 
@@ -474,7 +476,7 @@ button {
     font-family: var(--font-display);
     font-size: 1.3rem;
     font-weight: 400;
-    color: #5a7d9a;
+    color: #002fa7;
     margin-bottom: 1.5rem;
 }
 
@@ -534,10 +536,8 @@ button {
 .members-line {
     text-align: center;
     font-size: 0.85rem;
-    color: var(--color-text-muted);
+    color: #002fa7;
     padding: 1rem 0;
-    border-top: 1px solid var(--color-border);
-    border-bottom: 1px solid var(--color-border);
 }
 
 /* ==========================================
@@ -667,7 +667,7 @@ button {
 }
 
 /* 唱片中心孔 */
-.album-cover::after {
+/* .album-cover::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -678,7 +678,7 @@ button {
     border-radius: 50%;
     background: #1a1a1a;
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
-}
+} */
 
 /* 悬停效果 - 唱片旋转 */
 .album-card:hover .album-vinyl {
@@ -750,9 +750,9 @@ button {
 
 .platform-link:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
-    box-shadow: 0 6px 20px rgba(90, 125, 154, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
+    box-shadow: 0 6px 20px rgba(0, 47, 167, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
@@ -786,17 +786,17 @@ button {
 
 .tab-btn:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
-    box-shadow: 0 6px 20px rgba(90, 125, 154, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
+    box-shadow: 0 6px 20px rgba(0, 47, 167, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
 .tab-btn.active {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
-    box-shadow: 0 6px 20px rgba(90, 125, 154, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
+    box-shadow: 0 6px 20px rgba(0, 47, 167, 0.25), 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .events-list {
@@ -983,9 +983,10 @@ button {
    页脚
    ========================================== */
 .footer {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(15px);
-    border-top: 1px solid rgba(90, 125, 154, 0.15);
+    background: rgba(0, 47, 167, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(0, 47, 167, 0.15);
     padding: 4rem 0 2rem;
     margin-top: 4rem;
 }
@@ -1006,14 +1007,14 @@ button {
     font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 0.15em;
-    color: #5a7d9a;
+    color: #002fa7;
     display: block;
 }
 
 .logo-chinese {
     font-size: 0.85rem;
     letter-spacing: 0.2em;
-    color: #5a7d9a;
+    color: #002fa7;
     display: block;
     margin-top: 0.3rem;
 }
@@ -1044,20 +1045,20 @@ button {
     height: 40px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(90, 125, 154, 0.2);
+    border: 1px solid rgba(0, 47, 167, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all var(--transition-normal);
-    color: #5a7d9a;
-    box-shadow: 0 2px 8px rgba(90, 125, 154, 0.15);
+    color: #002fa7;
+    box-shadow: 0 2px 8px rgba(0, 47, 167, 0.15);
 }
 
 .social-link:hover {
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(90, 125, 154, 0.4);
-    color: #5a7d9a;
-    box-shadow: 0 4px 12px rgba(90, 125, 154, 0.25);
+    border-color: rgba(0, 47, 167, 0.4);
+    color: #002fa7;
+    box-shadow: 0 4px 12px rgba(0, 47, 167, 0.25);
 }
 
 .social-link svg {

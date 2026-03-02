@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "zh": "成员 A",
+            "en": "Member A"
+        },
+        "role": {
+            "zh": "主唱 / 合成器",
+            "en": "Vocals / Synth"
+        },
+        "bio": {
+            "zh": "乐队创始成员，负责主唱与合成器演奏",
+            "en": "Founding member, lead vocals and synthesizer"
+        },
+        "avatar": null,
+        "social": {
+            "weibo": "",
+            "instagram": ""
+        }
+    },
+    {
+        "id": 2,
+        "name": {
+            "zh": "成员 B",
+            "en": "Member B"
+        },
+        "role": {
+            "zh": "吉他",
+            "en": "Guitar"
+        },
+        "bio": {
+            "zh": "负责吉他演奏与音色设计",
+            "en": "Guitar and sound design"
+        },
+        "avatar": null,
+        "social": {
+            "weibo": "",
+            "instagram": ""
+        }
+    },
+    {
+        "id": 3,
+        "name": {
+            "zh": "成员 C",
+            "en": "Member C"
+        },
+        "role": {
+            "zh": "贝斯",
+            "en": "Bass"
+        },
+        "bio": {
+            "zh": "负责贝斯演奏",
+            "en": "Bass guitar"
+        },
+        "avatar": null,
+        "social": {
+            "weibo": "",
+            "instagram": ""
+        }
+    },
+    {
+        "id": 4,
+        "name": {
+            "zh": "成员 D",
+            "en": "Member D"
+        },
+        "role": {
+            "zh": "鼓 / 电子打击乐",
+            "en": "Drums / Electronic Percussion"
+        },
+        "bio": {
+            "zh": "负责鼓与电子打击乐",
+            "en": "Drums and electronic percussion"
+        },
+        "avatar": null,
+        "social": {
+            "weibo": "",
+            "instagram": ""
+        }
+    }
+]

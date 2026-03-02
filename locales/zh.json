@@ -1,0 +1,63 @@
+{
+    "nav": {
+        "home": "首页",
+        "about": "乐队",
+        "music": "音乐",
+        "events": "演出",
+        "gallery": "记录"
+    },
+    "hero": {
+        "tagline": "在黑暗中寻找轮廓，在旋律中定义自我",
+        "description": "独立电子 · Indietronica",
+        "listenNow": "音乐",
+        "viewEvents": "演出",
+        "scrollDown": "向下滚动"
+    },
+    "about": {
+        "storyTitle": "我们的故事",
+        "storyContent1": "暗色轮廓 Silhouette 成立于2022年夏天，是一支来自南京的独立电子（Indietronica）乐队。暗色是一朵比世界更大的云，我在我的黑暗里，望着虚浮的轮廓，用一支画笔慢慢填满向往的自己。",
+        "storyContent2": "我们追求干净与简洁的音乐理念，用旋律化的贝斯线条、复古的合成器音色，搭配富有张力的吉他Riff和强烈的节奏，编织出属于暗色轮廓的独特声音。",
+        "storyContent3": "在黑暗中，轮廓是我们感知存在的方式；在音乐中，轮廓是我们表达情感的语言。",
+        "photoPlaceholder": "乐队照片",
+        "membersTitle": "乐队成员"
+    },
+    "music": {
+        "title": "音乐作品",
+        "subtitle": "Discography",
+        "listenOn": "在这些平台收听",
+        "tracks": "首曲目"
+    },
+    "events": {
+        "title": "演出行程",
+        "subtitle": "Tour Dates",
+        "upcoming": "即将到来",
+        "past": "过往演出",
+        "getTickets": "购票",
+        "ended": "已结束",
+        "noUpcoming": "暂无即将到来的演出",
+        "noPast": "暂无过往演出记录",
+        "stayTuned": "请关注我们的社交媒体获取最新演出信息"
+    },
+    "gallery": {
+        "title": "记录",
+        "subtitle": "Memories",
+        "photos": "照片",
+        "videos": "视频",
+        "noPhotos": "暂无照片",
+        "noVideos": "暂无视频"
+    },
+    "footer": {
+        "tagline": "在黑暗中寻找轮廓",
+        "followUs": "关注我们",
+        "contact": "联系我们",
+        "rights": "保留所有权利",
+        "madeWith": "Made by Zoey"
+    },
+    "members": {
+        "vocal": "主唱",
+        "guitar": "吉他",
+        "bass": "贝斯",
+        "synth": "合成器/键盘",
+        "drums": "鼓"
+    }
+}

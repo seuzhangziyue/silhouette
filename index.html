@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="暗色轮廓 Silhouette - 独立电子乐队官方网站">
+    <meta name="keywords" content="暗色轮廓, Silhouette, 独立电子, Indietronica, 乐队">
+    <title>暗色轮廓 Silhouette | 官方网站</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@400;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="assets/images/乐队队标.png" alt="暗色轮廓 Silhouette" class="logo-image">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active" data-i18n="nav.home">首页</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav.about">关于</a></li>
+                <li class="nav-item"><a href="#music" class="nav-link" data-i18n="nav.music">音乐</a></li>
+                <li class="nav-item"><a href="#events" class="nav-link" data-i18n="nav.events">演出</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link" data-i18n="nav.gallery">记录</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-switch" id="lang-switch" title="Switch Language">
+                    <span class="lang-current">中</span>
+                    <span class="lang-divider">/</span>
+                    <span class="lang-other">EN</span>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主页 Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title">Silhouette</span>
+                    <span class="hero-title-cn">暗色轮廓</span>
+                </h1>
+                <p class="hero-tagline" data-i18n="hero.tagline">在黑暗中寻找轮廓，在旋律中定义自我</p>
+                <p class="hero-description" data-i18n="hero.description">独立电子 · Indietronica</p>
+                <div class="hero-cta">
+                    <a href="#music" class="btn btn-primary" data-i18n="hero.listenNow">音乐</a>
+                    <a href="#events" class="btn btn-primary" data-i18n="hero.viewEvents">演出</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span data-i18n="hero.scrollDown">向下滚动</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- 关于乐队 -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <!-- <p class="section-subtitle" data-i18n="about.subtitle">Our Story</p> -->
+            </div>
+            <div class="about-content about-layout-new">
+                <!-- 左侧1/3：乐队描述 -->
+                <div class="about-text-side">
+                    <h3 data-i18n="about.storyTitle">我们的故事</h3>
+                    <p data-i18n="about.storyContent1">
+                        暗色轮廓 Silhouette 成立于2022年夏天，是一支来自的独立电子（Indietronica）乐队。暗色是一朵比世界更大的云，我在我的黑暗里，望着虚浮的轮廓，用一支画笔慢慢填满向往的自己。
+                    </p>
+                    <p data-i18n="about.storyContent2">
+                        我们追求干净与简洁的音乐理念，用旋律化的贝斯线条、复古的合成器音色，搭配富有张力的吉他Riff和强烈的节奏，编织出属于暗色轮廓的独特声音。
+                    </p>
+                    <p data-i18n="about.storyContent3">
+                        在黑暗中，轮廓是我们感知存在的方式；在音乐中，轮廓是我们表达情感的语言。
+                    </p>
+                </div>
+                
+                <!-- 右侧2/3：乐队照片和成员 -->
+                <div class="about-photos-side">
+                    <div class="band-photos-collage">
+                        <div class="band-photo-item photo-1">
+                            <img src="assets/images/三人黑衣合照.png" alt="暗色轮廓乐队">
+                        </div>
+                        <div class="band-photo-item photo-2">
+                            <img src="assets/images/三人合照2.png" alt="暗色轮廓乐队">
+                        </div>
+                    </div>
+                    <!-- 成员一行文字 -->
+                    <p class="members-line">主唱/贝斯：Lazy｜键盘：禾子｜鼓：凯东｜吉他：尹雨豪</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 音乐作品 -->
+    <section id="music" class="section music">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="music.title">音乐作品</h2>
+                <p class="section-subtitle" data-i18n="music.subtitle">Discography</p>
+            </div>
+            <div class="music-content">
+                <div class="albums-grid" id="albums-grid">
+                    <!-- 专辑卡片将由 JavaScript 动态渲染 -->
+                </div>
+                
+                <!-- 音乐平台链接 -->
+                <div class="music-platforms">
+                    <h3 data-i18n="music.listenOn">在这些平台收听</h3>
+                    <div class="platforms-grid">
+                        <a href="https://music.163.com/artist?id=54382192" class="platform-link" target="_blank" rel="noopener">
+                            <div class="platform-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm0-5.5c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"/>
+                                </svg>
+                            </div>
+                            <span>网易云音乐</span>
+                        </a>
+                        <a href="https://y.qq.com/n/ryqq/singer/001kPwkP4ZuoJ3" class="platform-link" target="_blank" rel="noopener">
+                            <div class="platform-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V7h2v5zm4 4h-2v-2h2v2zm0-4h-2V7h2v5z"/>
+                                </svg>
+                            </div>
+                            <span>QQ音乐</span>
+                        </a>
+                        <a href="https://music.apple.com/cn/search?term=暗色轮廓" class="platform-link" target="_blank" rel="noopener">
+                            <div class="platform-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 00-1.877-.726 10.496 10.496 0 00-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026-.747.043-1.49.123-2.193.4-1.336.53-2.3 1.452-2.865 2.78-.192.448-.292.925-.363 1.408-.056.392-.088.785-.1 1.18 0 .032-.007.062-.01.093v12.223c.01.14.017.283.027.424.05.815.154 1.624.497 2.373.65 1.42 1.738 2.353 3.234 2.801.42.127.856.187 1.293.228.555.053 1.11.06 1.667.06h11.03a12.5 12.5 0 001.57-.1c.822-.106 1.596-.35 2.295-.81a5.046 5.046 0 001.88-2.207c.186-.42.293-.87.37-1.324.113-.675.138-1.358.137-2.04-.002-3.8 0-7.595-.003-11.393zm-6.423 3.99v5.712c0 .417-.058.827-.244 1.206-.29.59-.76.962-1.388 1.14-.35.1-.706.157-1.07.173-.95.042-1.873-.544-2.057-1.625-.127-.744.1-1.373.703-1.853.38-.304.834-.478 1.308-.608.39-.108.79-.177 1.18-.278.25-.065.48-.172.64-.384.1-.13.16-.277.17-.44.01-.092.01-.18.01-.274V9.15c0-.185-.04-.372-.14-.527-.16-.25-.43-.37-.71-.33-.27.04-.54.1-.81.17-1.05.25-2.1.51-3.15.77-.65.16-1.3.32-1.95.47-.54.13-.73.39-.73.94v8.24c0 .4-.05.79-.22 1.16-.28.6-.75.97-1.37 1.15-.37.11-.74.17-1.12.19-.94.03-1.85-.56-2.03-1.64-.13-.75.08-1.39.69-1.88.38-.31.84-.49 1.32-.62.4-.11.81-.18 1.21-.28.24-.06.46-.16.62-.36.12-.15.18-.32.18-.51v-9.55c0-.38.09-.73.33-1.02.29-.35.67-.53 1.11-.63.95-.24 1.9-.47 2.86-.71l4.01-.98c.42-.1.84-.21 1.27-.28.45-.07.87.12 1.13.52.14.22.21.47.21.74v6.68z"/>
+                                </svg>
+                            </div>
+                            <span>Apple Music</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 演出行程 -->
+    <section id="events" class="section events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="events.title">演出行程</h2>
+                <p class="section-subtitle" data-i18n="events.subtitle">Tour Dates</p>
+            </div>
+            <div class="events-content">
+                <div class="events-tabs">
+                    <button class="tab-btn active" data-tab="upcoming" data-i18n="events.upcoming">即将到来</button>
+                    <button class="tab-btn" data-tab="past" data-i18n="events.past">过往演出</button>
+                </div>
+                <div class="events-list" id="events-list">
+                    <!-- 演出列表将由 JavaScript 动态渲染 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 记录 -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="gallery.title">记录</h2>
+                <p class="section-subtitle" data-i18n="gallery.subtitle">Gallery</p>
+            </div>
+            <div class="gallery-content">
+                <div class="gallery-tabs">
+                    <button class="tab-btn active" data-tab="photos" data-i18n="gallery.photos">照片</button>
+                    <button class="tab-btn" data-tab="videos" data-i18n="gallery.videos">视频</button>
+                </div>
+                <!-- 照片内容 -->
+                <div class="gallery-grid gallery-static" id="photos-content">
+                    <div class="gallery-item">
+                        <img src="assets/images/乐队照片3.png" alt="乐队照片" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/乐队照片4.png" alt="乐队照片" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/乐队照片5.png" alt="乐队照片" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/观众合照2.png" alt="演出现场" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/观众合照3.png" alt="演出现场" loading="lazy">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/images/观众合照4.png" alt="演出现场" loading="lazy">
+                    </div>
+                </div>
+                <!-- 视频内容 -->
+                <div class="gallery-grid gallery-videos" id="videos-content" style="display: none;">
+                    <div class="gallery-item video-item">
+                        <video controls preload="metadata">
+                            <source src="assets/videos/1730891710.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放
+                        </video>
+                    </div>
+                    <div class="gallery-item video-item">
+                        <video controls preload="metadata">
+                            <source src="assets/videos/1954016100.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">Silhouette</span>
+                        <span class="logo-chinese">暗色轮廓</span>
+                    </div>
+                    <p class="footer-tagline" data-i18n="footer.tagline">在黑暗中寻找轮廓</p>
+                </div>
+                <div class="footer-social">
+                    <h4 data-i18n="footer.followUs">关注我们</h4>
+                    <div class="social-links">
+                        <a href="https://s.weibo.com/user?q=暗色轮廓Silhouette" class="social-link" target="_blank" rel="noopener" aria-label="微博">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.194 14.197c0 3.248-4.23 5.88-9.446 5.88-5.216 0-9.445-2.632-9.445-5.88 0-3.247 4.229-5.88 9.445-5.88 5.216 0 9.446 2.633 9.446 5.88z"/>
+                            </svg>
+                        </a>
+                        <a href="https://search.bilibili.com/upuser?keyword=暗色轮廓Silhouette" class="social-link" target="_blank" rel="noopener" aria-label="Bilibili">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.659.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.xiaohongshu.com/search_result?keyword=暗色轮廓Silhouette" class="social-link" target="_blank" rel="noopener" aria-label="小红书">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                            </svg>
+                        </a>
+                        <a href="https://music.163.com/artist?id=54382192" class="social-link" target="_blank" rel="noopener" aria-label="网易云音乐">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 14.5c-2.49 0-4.5-2.01-4.5-4.5S9.51 7.5 12 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer.contact">联系我们</h4>
+                    <p>booking@silhouette.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 暗色轮廓 Silhouette. <span data-i18n="footer.rights">保留所有权利</span></p>
+                <p class="made-with" data-i18n="footer.madeWith">Made by Zoey</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="js/i18n.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": {
+            "zh": "Charon",
+            "en": "Charon"
+        },
+        "type": "album",
+        "year": "2022",
+        "cover": "assets/images/专辑1Charon.png",
+        "trackCount": 8,
+        "description": {
+            "zh": "首张专辑",
+            "en": "Debut Album"
+        }
+    },
+    {
+        "id": 2,
+        "title": {
+            "zh": "失控的",
+            "en": "Out of Control"
+        },
+        "type": "album",
+        "year": "2023",
+        "cover": "assets/images/专辑2失控的.png",
+        "trackCount": 6,
+        "description": {
+            "zh": "第二张专辑",
+            "en": "Second Album"
+        }
+    },
+    {
+        "id": 3,
+        "title": {
+            "zh": "A Tree Afraid of Water",
+            "en": "Tree Afraid of Water"
+        },
+        "type": "album",
+        "year": "2023",
+        "cover": "assets/images/专辑3怕水的树.png",
+        "trackCount": 5,
+        "description": {
+            "zh": "第三张专辑",
+            "en": "Third Album"
+        }
+    },
+    {
+        "id": 4,
+        "title": {
+            "zh": "Love Letters（爱人秘信）",
+            "en": "Love Letters"
+        },
+        "type": "album",
+        "year": "2026",
+        "cover": "assets/images/专辑4爱人秘信.png",
+        "trackCount": 7,
+        "description": {
+            "zh": "第四张专辑",
+            "en": "Fourth Album"
+        }
+    },
+    {
+        "id": 5,
+        "title": {
+            "zh": "Elenore's Dream",
+            "en": "Elenore's Dream"
+        },
+        "type": "album",
+        "year": "2026",
+        "cover": "assets/images/专辑5Elenore'sDream.png",
+        "trackCount": 6,
+        "description": {
+            "zh": "第五张专辑",
+            "en": "Fifth Album"
+        }
+    },
+    {
+        "id": 6,
+        "title": {
+            "zh": "K",
+            "en": "K"
+        },
+        "type": "album",
+        "year": "2025",
+        "cover": "assets/images/专辑6K.png",
+        "trackCount": 8,
+        "description": {
+            "zh": "最新专辑",
+            "en": "Latest Album"
+        }
+    }
+]

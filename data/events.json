@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "date": "2026-04-15",
+        "title": {
+            "zh": "春季巡演 - 北京站",
+            "en": "Spring Tour - Beijing"
+        },
+        "venue": {
+            "zh": "MAO Livehouse",
+            "en": "MAO Livehouse"
+        },
+        "location": {
+            "zh": "北京市东城区",
+            "en": "Dongcheng, Beijing"
+        },
+        "time": "20:00",
+        "ticketUrl": "#",
+        "ticketPrice": {
+            "zh": "预售 ¥150 / 现场 ¥180",
+            "en": "Presale ¥150 / Door ¥180"
+        },
+        "description": {
+            "zh": "2026年春季巡演首站，不见不散！",
+            "en": "First stop of 2026 Spring Tour, see you there!"
+        }
+    },
+    {
+        "id": 2,
+        "date": "2026-04-20",
+        "title": {
+            "zh": "春季巡演 - 上海站",
+            "en": "Spring Tour - Shanghai"
+        },
+        "venue": {
+            "zh": "育音堂",
+            "en": "Yuyintang"
+        },
+        "location": {
+            "zh": "上海市徐汇区",
+            "en": "Xuhui, Shanghai"
+        },
+        "time": "20:30",
+        "ticketUrl": "#",
+        "ticketPrice": {
+            "zh": "预售 ¥150 / 现场 ¥180",
+            "en": "Presale ¥150 / Door ¥180"
+        },
+        "description": {
+            "zh": "上海的朋友们，我们来啦！",
+            "en": "Shanghai friends, we're coming!"
+        }
+    },
+    {
+        "id": 3,
+        "date": "2026-04-27",
+        "title": {
+            "zh": "春季巡演 - 杭州站",
+            "en": "Spring Tour - Hangzhou"
+        },
+        "venue": {
+            "zh": "酒球会",
+            "en": "Jiuqiuhui"
+        },
+        "location": {
+            "zh": "杭州市西湖区",
+            "en": "Xihu, Hangzhou"
+        },
+        "time": "20:00",
+        "ticketUrl": "#",
+        "ticketPrice": {
+            "zh": "预售 ¥120 / 现场 ¥150",
+            "en": "Presale ¥120 / Door ¥150"
+        },
+        "description": {
+            "zh": "春季巡演杭州站",
+            "en": "Spring Tour Hangzhou stop"
+        }
+    },
+    {
+        "id": 4,
+        "date": "2026-05-04",
+        "title": {
+            "zh": "春季巡演 - 成都站",
+            "en": "Spring Tour - Chengdu"
+        },
+        "venue": {
+            "zh": "小酒馆",
+            "en": "Little Bar"
+        },
+        "location": {
+            "zh": "成都市武侯区",
+            "en": "Wuhou, Chengdu"
+        },
+        "time": "20:30",
+        "ticketUrl": "#",
+        "ticketPrice": {
+            "zh": "预售 ¥120 / 现场 ¥150",
+            "en": "Presale ¥120 / Door ¥150"
+        },
+        "description": {
+            "zh": "成都站，期待与你相遇",
+            "en": "Chengdu stop, looking forward to meeting you"
+        }
+    },
+    {
+        "id": 5,
+        "date": "2025-12-15",
+        "title": {
+            "zh": "冬季音乐节演出",
+            "en": "Winter Music Festival"
+        },
+        "venue": {
+            "zh": "深圳湾体育中心",
+            "en": "Shenzhen Bay Sports Center"
+        },
+        "location": {
+            "zh": "深圳市南山区",
+            "en": "Nanshan, Shenzhen"
+        },
+        "time": "16:00",
+        "ticketUrl": null,
+        "ticketPrice": {
+            "zh": "音乐节通票",
+            "en": "Festival Pass"
+        },
+        "description": {
+            "zh": "冬季音乐节演出回顾",
+            "en": "Winter Music Festival performance"
+        }
+    },
+    {
+        "id": 6,
+        "date": "2025-10-20",
+        "title": {
+            "zh": "「城市光影」单曲发布专场",
+            "en": "City Lights Single Release Show"
+        },
+        "venue": {
+            "zh": "School 酒吧",
+            "en": "School Bar"
+        },
+        "location": {
+            "zh": "北京市海淀区",
+            "en": "Haidian, Beijing"
+        },
+        "time": "21:00",
+        "ticketUrl": null,
+        "ticketPrice": {
+            "zh": "¥100",
+            "en": "¥100"
+        },
+        "description": {
+            "zh": "新单曲「城市光影」发布专场演出",
+            "en": "New single 'City Lights' release show"
+        }
+    },
+    {
+        "id": 7,
+        "date": "2025-08-08",
+        "title": {
+            "zh": "夏日音浪音乐节",
+            "en": "Summer Wave Music Festival"
+        },
+        "venue": {
+            "zh": "青岛国际啤酒城",
+            "en": "Qingdao International Beer City"
+        },
+        "location": {
+            "zh": "青岛市崂山区",
+            "en": "Laoshan, Qingdao"
+        },
+        "time": "18:30",
+        "ticketUrl": null,
+        "ticketPrice": {
+            "zh": "音乐节通票",
+            "en": "Festival Pass"
+        },
+        "description": {
+            "zh": "夏日音浪音乐节演出",
+            "en": "Summer Wave Music Festival performance"
+        }
+    }
+]

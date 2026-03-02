@@ -1,0 +1,63 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "music": "Music",
+        "events": "Events",
+        "gallery": "Gallery"
+    },
+    "hero": {
+        "tagline": "Finding silhouettes in the dark, defining ourselves in melody",
+        "description": "Indietronica",
+        "listenNow": "Listen Now",
+        "viewEvents": "Tour Dates",
+        "scrollDown": "Scroll Down"
+    },
+    "about": {
+        "storyTitle": "Our Story",
+        "storyContent1": "Silhouette was formed in the summer of 2022, an Indietronica band from China.",
+        "storyContent2": "We pursue a clean and minimalist musical philosophy, weaving melodic bass lines, vintage synthesizer tones, powerful guitar riffs and strong rhythms into the unique sound of Silhouette.",
+        "storyContent3": "In the darkness, silhouettes are how we perceive existence; in music, silhouettes are our language of emotion.",
+        "photoPlaceholder": "Band Photo",
+        "membersTitle": "Band Members"
+    },
+    "music": {
+        "title": "Discography",
+        "subtitle": "音乐作品",
+        "listenOn": "Listen on",
+        "tracks": "tracks"
+    },
+    "events": {
+        "title": "Tour Dates",
+        "subtitle": "演出行程",
+        "upcoming": "Upcoming",
+        "past": "Past Shows",
+        "getTickets": "Get Tickets",
+        "ended": "Ended",
+        "noUpcoming": "No upcoming shows",
+        "noPast": "No past shows",
+        "stayTuned": "Follow us on social media for the latest updates"
+    },
+    "gallery": {
+        "title": "Memories",
+        "subtitle": "记录",
+        "photos": "Photos",
+        "videos": "Videos",
+        "noPhotos": "No photos yet",
+        "noVideos": "No videos yet"
+    },
+    "footer": {
+        "tagline": "Finding silhouettes in the dark",
+        "followUs": "Follow Us",
+        "contact": "Contact",
+        "rights": "All rights reserved",
+        "madeWith": "Made by Zoey"
+    },
+    "members": {
+        "vocal": "Vocals",
+        "guitar": "Guitar",
+        "bass": "Bass",
+        "synth": "Synth/Keys",
+        "drums": "Drums"
+    }
+}
